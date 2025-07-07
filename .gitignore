@@ -1,0 +1,10 @@
+node_modules/
+
+# Игнорировать всё в .vscode
+.vscode/*
+
+# Но оставить settings.json и extensions.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.DS_Store

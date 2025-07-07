@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dsznajder.es7-react-js-snippets",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "planbcoding.vscode-react-refactor",
+    "christian-kohler.path-intellisense",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
