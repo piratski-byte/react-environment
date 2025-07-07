@@ -13,7 +13,6 @@
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) — линтинг кода по правилам
 - [React Refactor](https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor) — быстрое выделение JSX в компонент
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) — автоподсказки путей к файлам
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) — автодополнение классов Tailwind CSS
 
 > 💡 Все рекомендуемые расширения перечислены в `.vscode/extensions.json` и будут предложены при открытии проекта в VS Code.
 

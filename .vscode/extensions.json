@@ -6,7 +6,6 @@
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "planbcoding.vscode-react-refactor",
-    "christian-kohler.path-intellisense",
-    "bradlc.vscode-tailwindcss"
+    "christian-kohler.path-intellisense"
   ]
 }
