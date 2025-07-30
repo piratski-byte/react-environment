@@ -1,0 +1,19 @@
+@forward 'variables';
+@forward 'mixins';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Segoe UI', Tahoma, Geneva, sans-serif;
+  background-color: #554f4f;
+}
+
+.flow {
+  display: flex;
+  gap: 0.15rem;
+  min-height: 100vh;
+}

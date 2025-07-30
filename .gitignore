@@ -1,10 +1,21 @@
+# Node dependencies
 node_modules/
 
-# Игнорировать всё в .vscode
-.vscode/*
+# Build output
+dist/
 
-# Но оставить settings.json и extensions.json
+# VSCode settings (ignore all except these files)
+.vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 
+# macOS system files
 .DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env*

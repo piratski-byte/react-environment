@@ -1,6 +1,8 @@
+@use '@styles' as *;
+
 .btn {
   padding: 10px 20px;
-  background-color: #1976d2;
+  background-color: $button-color;
   color: white;
   border: none;
   border-radius: 6px;

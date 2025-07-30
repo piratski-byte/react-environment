@@ -1,11 +1,17 @@
 {
-  "name": "react-project",
+  "name": "react-environment",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "npx serve dist",
+    "preview": "npx serve dist --single",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint src/**/*.{js,jsx} --fix",
+    "format": "prettier --write src/**/*.{js,jsx,scss}",
+    "format:check": "prettier --check src/**/*.{js,jsx,scss}"
   },
   "keywords": [],
   "author": "PiRat",
@@ -13,18 +19,25 @@
   "description": "",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
+    "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
-    "react-router-dom": "^7.6.3"
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
+    "@svgr/webpack": "^8.1.0",
     "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "cross-env": "^10.0.0",
     "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
     "sass": "^1.89.2",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
